@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="4.2" type="template">
+    <name>Templates</name>
+    <creationDate>2022-09-22</creationDate>
+    <author>Uros Rajkovic</author>
+    <authorEmail>uros.rajkovic@mathema.de</authorEmail>
+    <copyright>Copyright (C) 2005 - 2022. All rights reserved.</copyright>
+    <version>0.1</version>
+    <description>Template</description>
+    <files>
+        <filename>index.php</filename>
+        <filename>templateDetails.xml</filename>
+        <folder>images</folder>
+        <folder>css</folder>
+        <folder>js</folder>
+    </files>
+    <positions>
+        <position>breadcrumb</position>
+        <position>main_menu</position>
+        <position>left</position>
+        <position>right</position>
+        <position>top</position>
+        <position>user1</position>
+        <position>user2</position>
+        <position>user3</position>
+        <position>user4</position>
+        <position>footer</position>
+    </positions>
+</extension>

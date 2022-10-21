@@ -1,0 +1,21 @@
+
+a:hover {
+    text-decoration: none;
+}
+/* Navigation*/
+nav {
+    padding: 2em !important;
+    position: sticky !important;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+    box-shadow: 0 4px 8px 0 rgba(128, 128, 128, 0.35);
+    -webkit-box-shadow: 0 4px 8px 0 rgba(128, 128, 128, 0.35);
+}
+.navbar {
+    background-color: #00284d;
+}
+.logo img {
+    filter: brightness(0) invert(1);
+}
+
