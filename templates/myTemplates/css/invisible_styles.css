@@ -15,7 +15,7 @@ nav {
 .navbar {
     background-color: #00284d;
 }
-.logo img {
+nav img {
     filter: brightness(0) invert(1);
 }
 

@@ -18,11 +18,10 @@
 
 <body>
 <!-- Navigation -->
-<nav class="navbar navbar-expand-lg pt-3 pb-3">
-        <div class="logo">
+<nav class="navbar navbar-expand-lg pt-3 pb-3 d-flex justify-content-between">
+
             <img src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/image/logo.png" alt="logo">
-        </div>
-        <div class="collapse navbar-collapse" id="navbarNav">
+
             <ul class="navbar-nav">
                 <li class="nav-item">
                     <a class="nav-link active" aria-current="page" href="#">About me</a>
@@ -37,7 +36,7 @@
                     <a class="nav-link" href="#">Contact</a>
                 </li>
             </ul>
-        </div>
+
 </nav>
 
 
