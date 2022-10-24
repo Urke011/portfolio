@@ -18,4 +18,24 @@ nav {
 nav img {
     filter: brightness(0) invert(1);
 }
+.nav-list-menu {
+    align-self: center;
+}
+.nav-list-menu ul li a {
+    padding-bottom: 0 !important;
+}
+nav ul li a:before{
+    content: "{";
+    color: whitesmoke;
+    visibility: hidden;
+}
+nav ul li a:after{
+    content: "}";
+    color: whitesmoke;
+    visibility: hidden;
+}
+nav ul li a:hover:after,
+nav ul li a:hover:before {
+    visibility: visible;
+}
 
