@@ -370,7 +370,4 @@ h6 {
         line-height: calc(20px + (24 - 20) * ((100vw - 800px) / (2000 - 800)));
     }
 
-    body {
-        padding-top: 4.4rem;
-    }
 }

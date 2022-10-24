@@ -23,19 +23,20 @@ nav img {
 }
 .nav-list-menu ul li a {
     padding-bottom: 0 !important;
+    text-decoration: none;
 }
-nav ul li a:before{
+.nav-list-menu ul li a:before{
     content: "{";
     color: whitesmoke;
     visibility: hidden;
 }
-nav ul li a:after{
+.nav-list-menu ul li a:after{
     content: "}";
     color: whitesmoke;
     visibility: hidden;
 }
-nav ul li a:hover:after,
-nav ul li a:hover:before {
+.nav-list-menu ul li a:hover:after,
+.nav-list-menu ul li a:hover:before {
     visibility: visible;
 }
 

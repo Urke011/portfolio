@@ -20,27 +20,14 @@
 <!-- Navigation -->
 <nav class="navbar navbar-expand-lg pt-3 pb-3 ">
     <div class="navigation d-flex justify-content-between w-100">
+
         <div class="nav-logo-img">
             <img src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/image/logo.png" alt="logo">
         </div>
         <div class="nav-list-menu">
-            <ul class="navbar-nav">
-                <li class="nav-item">
-                   <a class="nav-link active" aria-current="page" href="#">About me</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Blog</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Projects</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Contact</a>
-                </li>
-            </ul>
+            <jdoc:include type="modules" name="main_menu"/>
         </div>
     </div>
-
 </nav>
 
 
