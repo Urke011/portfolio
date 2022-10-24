@@ -39,4 +39,12 @@ nav img {
 .nav-list-menu ul li a:hover:before {
     visibility: visible;
 }
+.nav-list-menu ul ul{
+    display: none;
+}
+
+.nav-list-menu ul ul li a:hover:after,
+.nav-list-menu ul ul li a:hover:before {
+    visibility: hidden;
+}
 
