@@ -22,7 +22,10 @@
     <div class="navigation d-flex justify-content-between w-100">
 
         <div class="nav-logo-img">
-            <img src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/image/logo.png" alt="logo">
+            <a href="<?php echo JUri::base(); ?>">
+                <img src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/image/logo.png"
+                     alt="logo">
+            </a>
         </div>
         <div class="nav-list-menu">
             <jdoc:include type="modules" name="main_menu"/>
