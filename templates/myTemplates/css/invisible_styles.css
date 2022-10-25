@@ -39,10 +39,32 @@ nav img {
 .nav-list-menu ul li a:hover:before {
     visibility: visible;
 }
-.nav-list-menu ul ul{
-    display: none;
+.nav-list-menu ul > li a{
+    position: relative;
+}
+/* research this part more... */
+.nav-list-menu ul li:first-child  ul {
+    visibility: hidden;
+    position: absolute;
+    z-index: 1;
+    background-color: #c91d2b;
+}
+.nav-list-menu ul li:first-child ul li a {
+    color: whitesmoke !important;
 }
 
+.nav-list-menu ul li:first-child ul li:hover {
+    background-color: var(--user-primary--color);
+}
+.nav-list-menu ul li:first-child ul li{
+    padding: 0.2em 0.3em;
+}
+.nav-list-menu ul > li:first-child:hover ul{
+    visibility: visible;
+}
+.nav-list-menu ul > li:first-child ul{
+    border-radius: 0.1em;
+}
 .nav-list-menu ul ul li a:hover:after,
 .nav-list-menu ul ul li a:hover:before {
     visibility: hidden;

@@ -2,6 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="de28a43b-6f0a-4ce9-8984-13341ab7133c" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/administrator/cache/_media_version/13845065424eb2b3f7fb36b9f8bdf288-cache-_media_version-96b33e647d8feca69268b8c1c1323b59.php" beforeDir="false" afterPath="$PROJECT_DIR$/administrator/cache/_media_version/13845065424eb2b3f7fb36b9f8bdf288-cache-_media_version-96b33e647d8feca69268b8c1c1323b59.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configuration.php" beforeDir="false" afterPath="$PROJECT_DIR$/configuration.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htaccess.txt" beforeDir="false" afterPath="$PROJECT_DIR$/.htaccess" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/myTemplates/css/invisible_styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/templates/myTemplates/css/invisible_styles.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -14,6 +18,11 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/templates/myTemplates/css/template.css" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/templates/myTemplates/css/invisible_styles.css" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/templates/myTemplates/index.php" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="2GbDjzKBL3DCDodSadY64y8DhDJ" />
   <component name="ProjectViewState">
@@ -36,10 +45,22 @@
       <option name="presentableId" value="Default" />
       <updated>1666648529587</updated>
       <workItem from="1666648530854" duration="937000" />
+      <workItem from="1666729722549" duration="4184000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
