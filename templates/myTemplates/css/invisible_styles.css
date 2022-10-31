@@ -1,7 +1,12 @@
 
 a:hover {
-    text-decoration: none;
+    text-decoration: none !important;
 }
+
+a {
+    text-decoration: none !important;
+}
+
 /* Navigation*/
 nav {
     padding: 2em !important;
@@ -12,43 +17,53 @@ nav {
     box-shadow: 0 4px 8px 0 rgba(128, 128, 128, 0.35);
     -webkit-box-shadow: 0 4px 8px 0 rgba(128, 128, 128, 0.35);
 }
+
 .navbar {
     background-color: #00284d;
 }
+
 nav img {
     filter: brightness(0) invert(1);
 }
+
 .nav-list-menu {
     align-self: center;
 }
+
 .nav-list-menu ul li a {
     padding-bottom: 0 !important;
     text-decoration: none;
 }
-.nav-list-menu ul li a:before{
+
+.nav-list-menu ul li a:before {
     content: "{";
     color: whitesmoke;
     visibility: hidden;
 }
-.nav-list-menu ul li a:after{
+
+.nav-list-menu ul li a:after {
     content: "}";
     color: whitesmoke;
     visibility: hidden;
 }
+
 .nav-list-menu ul li a:hover:after,
 .nav-list-menu ul li a:hover:before {
     visibility: visible;
 }
-.nav-list-menu ul > li a{
+
+.nav-list-menu ul > li a {
     position: relative;
 }
+
 /* research this part more... */
-.nav-list-menu ul li:first-child  ul {
+.nav-list-menu ul li:first-child ul {
     visibility: hidden;
     position: absolute;
     z-index: 1;
     background-color: #c91d2b;
 }
+
 .nav-list-menu ul li:first-child ul li a {
     color: whitesmoke !important;
 }
@@ -56,17 +71,38 @@ nav img {
 .nav-list-menu ul li:first-child ul li:hover {
     background-color: var(--user-primary--color);
 }
-.nav-list-menu ul li:first-child ul li{
+
+.nav-list-menu ul li:first-child ul li {
     padding: 0.2em 0.3em;
 }
-.nav-list-menu ul > li:first-child:hover ul{
+
+.nav-list-menu ul > li:first-child:hover ul {
     visibility: visible;
+
+
 }
-.nav-list-menu ul > li:first-child ul{
+
+.nav-list-menu ul > li:first-child ul {
     border-radius: 0.1em;
 }
+
 .nav-list-menu ul ul li a:hover:after,
 .nav-list-menu ul ul li a:hover:before {
     visibility: hidden;
 }
+
+/* main-content */
+.main-content {
+    width: 100%;
+    display: block;
+    padding-left: var(--body-margin) !important;
+    padding-right: var(--body-margin) !important;
+}
+
+/* potfolio container */
+.portfolio-content table {
+    border-spacing: 2rem;
+    border-collapse: separate;
+}
+
 

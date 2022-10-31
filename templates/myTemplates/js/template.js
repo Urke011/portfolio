@@ -1,23 +1,14 @@
 
 
-    $(".contacts-links a").click(function() {
-        let activeSearchPositon = $(this).text();
-        //console.log(activeSearchPositon);
+let hideAboutText = $("#hide-about-text");
 
-        let item = document.getElementsByClassName("listOfTeams");
-        Array.from(item).forEach(function (ite){
-            let title = ite.firstElementChild.textContent;
-            title.toLowerCase();
-            activeSearchPositon.toLowerCase();
-            if(title.indexOf(activeSearchPositon) != -1){
-                title = ite.parentElement.parentElement.parentElement.parentElement.style.display = "block";
-            }else if(activeSearchPositon == "Alle Anzeigen"){
-                //not the best solution, try to fix it
-                title = ite.parentElement.parentElement.parentElement.parentElement.style.display = "block";
-            } else {
-                title = ite.parentElement.parentElement.parentElement.parentElement.style.display = "none";
-            }
-        })
-    });
-
+    $(".read-more-portfolio").click(function() {
+     if(hideAboutText.css("display") == "none"){
+         hideAboutText.css("display","block");
+         $(".read-more-portfolio").text("Read less");
+     }else{
+         hideAboutText.css("display","none");
+         $(".read-more-portfolio").text("Read more...");
+     }
+});
 

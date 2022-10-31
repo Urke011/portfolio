@@ -14,6 +14,8 @@
     <link rel="stylesheet"
           href="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/css/invisible_styles.css"
           type="text/css"/>
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"
+            integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -32,9 +34,10 @@
         </div>
     </div>
 </nav>
+<div class="main-content">
+    <jdoc:include type="component"/>
+</div>
 
-
-<jdoc:include type="component"/>
 <jdoc:include type="modules" name="footer"/>
 
 <script src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/js/jquery-3.6.1.min.js"></script>
