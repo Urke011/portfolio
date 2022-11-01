@@ -75,7 +75,9 @@ nav img {
 .nav-list-menu ul li:first-child ul li {
     padding: 0.2em 0.3em;
 }
-
+.nav-list-menu ul li a{
+    font-size: large;
+}
 .nav-list-menu ul > li:first-child:hover ul {
     visibility: visible;
 
@@ -104,5 +106,43 @@ nav img {
     border-spacing: 2rem;
     border-collapse: separate;
 }
+.portfolio-content table td h3 a{
+    background-color: var(--user-primary--color);
+    color: white !important;
+    padding: 0.2rem;
+    border-radius: 5px;
+}
+.portfolio-content table td h3 span{
+    margin-bottom: 0.3rem;
+}
+
+.contact-banner {
+    background-color: var(--user-primary--color);
+}
+.contact-banner td:nth-child(2){
+    background-color: white;
+    text-decoration: none !important;
+    font-weight: bold;
+    margin-top: 1.5em;
+    margin-bottom: 1em;
+    margin-left: -55pt;
+    display: inline-block;
+    padding-top: 10pt;
+    padding-bottom: 12pt;
+    padding-left: 14pt;
+    padding-right: 14pt;
+}
+.technologies-content table {
+    margin: 0 auto !important;
+    width: 50%;
+}
+.technologies-content table tr td  {
+    text-align: center;
+}
+.technologies-content tr td img{
+    width: 4rem;
+    height: auto;
+}
+
 
 
