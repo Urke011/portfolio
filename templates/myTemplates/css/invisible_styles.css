@@ -77,7 +77,7 @@ nav img {
 }
 
 .nav-list-menu ul li a {
-    font-size: large;
+    font-size: x-large;
 }
 
 .nav-list-menu ul > li:first-child:hover ul {
@@ -92,6 +92,9 @@ nav img {
 .nav-list-menu ul ul li a:hover:after,
 .nav-list-menu ul ul li a:hover:before {
     visibility: hidden;
+}
+.nav-list-menu ul ul li a{
+    font-size: larger;
 }
 
 /* main-content */
@@ -151,5 +154,30 @@ nav img {
     height: auto;
 }
 
+/* certificates */
 
-
+.certificates table {
+    border-spacing: 2rem;
+    border-collapse: separate;
+    margin: 0 auto !important;
+    width: 50%;
+}
+.certificates table tr td img{
+    width: 4rem;
+}
+.certificates table tr td {
+    text-align: center;
+    background-color: #f7f7f7;
+    padding: 1rem 2rem;
+}
+.certificates table tr td p{
+    color: var(--user-primary--color);
+    margin-top: 1rem;
+}
+.certificates table tr td img {
+    filter: invert(9%) sepia(87%) saturate(5576%) hue-rotate(346deg) brightness(120%) contrast(92%);
+}
+.certificates table tr td:hover{
+    background-color: var(--user-primary--color);
+    z-index: 1;
+}

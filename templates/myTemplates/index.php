@@ -40,6 +40,48 @@
 
 <jdoc:include type="modules" name="footer"/>
 
+<div class="table-responsive certificates">
+    <table class="table">
+        <tr>
+            <td class="rounded-5"><img src="images/icons-tech/diplom-und-hut-des-absolventen.png"  alt="diplom">
+                <p>ITAcademy from Belgrade</p>
+            </td>
+            <td class="rounded-5"><img src="images/icons-tech/diplom-und-hut-des-absolventen.png"  alt="diplom">
+                <p>University of Belgrade</p>
+            </td>
+            <td class="rounded-5"><img src="images/icons-tech/diplom-und-hut-des-absolventen.png"  alt="diplom">
+                <p>Telc German-B2</p>
+            </td>
+            <td class="rounded-5"><img src="images/icons-tech/diplom-und-hut-des-absolventen.png" alt="diplom">
+                <p>Telc German-B1</p>
+            </td>
+            <td class="rounded-5">
+                <img src="images/icons-tech/diplom-und-hut-des-absolventen.png"  alt="diplom">
+                <p>BAMF-The orientation course</p>
+            </td>
+        </tr>
+        <tr>
+            <td class="rounded-5"><img src="images/icons-tech/diplom.png"  alt="diplom">
+                <p>Data</p>
+            </td>
+            <td class="rounded-5"><img src="images/icons-tech/diplom.png"  alt="diplom">
+                <p>Data</p>
+            </td>
+            <td class="rounded-5"><img src="images/icons-tech/diplom.png"  alt="diplom">
+                <p>Data</p>
+            </td>
+            <td class="rounded-5"><img src="images/icons-tech/diplom.png"  alt="diplom">
+                <p>Data</p>
+            </td>
+            <td class="rounded-5">
+                <img src="images/icons-tech/running.png" class="rounded-3" alt="running">
+                <p>B2Run</p>
+            </td>
+        </tr>
+    </table>
+
+
+</div>
 
 <script src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/js/jquery-3.6.1.min.js"></script>
 <script src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/js/bootstrap.bundle.js"></script>
