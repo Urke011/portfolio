@@ -19,7 +19,7 @@ nav {
 }
 
 .navbar {
-    background-color: #00284d;
+    background-color: var(--user-secondary--color);
 }
 
 nav img {
@@ -61,7 +61,7 @@ nav img {
     visibility: hidden;
     position: absolute;
     z-index: 1;
-    background-color: #c91d2b;
+    background-color: var(--user-primary--color);
 }
 
 .nav-list-menu ul li:first-child ul li a {
@@ -69,18 +69,19 @@ nav img {
 }
 
 .nav-list-menu ul li:first-child ul li:hover {
-    background-color: var(--user-primary--color);
+    background-color: #ed1233;
 }
 
 .nav-list-menu ul li:first-child ul li {
     padding: 0.2em 0.3em;
 }
-.nav-list-menu ul li a{
+
+.nav-list-menu ul li a {
     font-size: large;
 }
+
 .nav-list-menu ul > li:first-child:hover ul {
     visibility: visible;
-
 
 }
 
@@ -106,20 +107,23 @@ nav img {
     border-spacing: 2rem;
     border-collapse: separate;
 }
-.portfolio-content table td h3 a{
+
+.portfolio-content table td h3 a {
     background-color: var(--user-primary--color);
     color: white !important;
     padding: 0.2rem;
     border-radius: 5px;
 }
-.portfolio-content table td h3 span{
+
+.portfolio-content table td h3 span {
     margin-bottom: 0.3rem;
 }
 
 .contact-banner {
     background-color: var(--user-primary--color);
 }
-.contact-banner td:nth-child(2){
+
+.contact-banner td:nth-child(2) {
     background-color: white;
     text-decoration: none !important;
     font-weight: bold;
@@ -132,14 +136,17 @@ nav img {
     padding-left: 14pt;
     padding-right: 14pt;
 }
+
 .technologies-content table {
     margin: 0 auto !important;
     width: 50%;
 }
-.technologies-content table tr td  {
+
+.technologies-content table tr td {
     text-align: center;
 }
-.technologies-content tr td img{
+
+.technologies-content tr td img {
     width: 4rem;
     height: auto;
 }
