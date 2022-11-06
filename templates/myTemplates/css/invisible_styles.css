@@ -120,6 +120,29 @@ nav img {
 
 .portfolio-content table td h3 span {
     margin-bottom: 0.3rem;
+
+}
+.portfolio-content table tr td img  {
+    width: 30rem;
+    border-radius: 5px;
+
+}
+.portfolio-content table tr > td{
+    position: relative;
+    z-index: 1;
+}
+.portfolio-content table tr td:first-child:after {
+    position: absolute;
+    content: "";
+    top: 2%;
+    left: 3%;
+    right: 3%;
+    width: 100%;
+    height: 100%;
+    background-color: var(--user-secondary--color);
+    border: 3px solid var(--user-primary--color);
+    border-radius: 5px;
+    z-index: -1;
 }
 
 .contact-banner {
