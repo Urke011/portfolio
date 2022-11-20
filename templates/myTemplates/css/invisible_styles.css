@@ -93,7 +93,8 @@ nav img {
 .nav-list-menu ul ul li a:hover:before {
     visibility: hidden;
 }
-.nav-list-menu ul ul li a{
+
+.nav-list-menu ul ul li a {
     font-size: larger;
 }
 
@@ -105,33 +106,17 @@ nav img {
     padding-right: var(--body-margin) !important;
 }
 
+.jumbotron-img img {
+    border: none !important;
+}
+
 /* potfolio container */
-.portfolio-content table {
-    border-spacing: 2rem;
-    border-collapse: separate;
-}
-
-.portfolio-content table td h3 a {
-    background-color: var(--user-primary--color);
-    color: white !important;
-    padding: 0.2rem;
-    border-radius: 5px;
-}
-
-.portfolio-content table td h3 span {
-    margin-bottom: 0.3rem;
-
-}
-.portfolio-content table tr td img  {
-    width: 30rem;
-    border-radius: 5px;
-
-}
-.portfolio-content table tr > td{
+.img-border {
     position: relative;
     z-index: 1;
 }
-.portfolio-content table tr td:first-child:after {
+
+.img-border:after {
     position: absolute;
     content: "";
     top: 2%;
@@ -163,44 +148,158 @@ nav img {
     padding-right: 14pt;
 }
 
-.technologies-content table {
-    margin: 0 auto !important;
-    width: 50%;
+.skills-table {
+    margin: 0 auto;
+    width: 70%;
 }
 
-.technologies-content table tr td {
+.skills-table .table tr td img {
+    width: 7rem;
+}
+
+.icon {
     text-align: center;
-}
-
-.technologies-content tr td img {
-    width: 4rem;
-    height: auto;
+    margin: 1rem;
 }
 
 /* certificates */
-
-.certificates table {
-    border-spacing: 2rem;
-    border-collapse: separate;
-    margin: 0 auto !important;
-    width: 50%;
-}
-.certificates table tr td img{
+.certificates .container img {
     width: 4rem;
 }
-.certificates table tr td {
+
+.edu-content {
+    background-color: #f4f4f6;
     text-align: center;
-    background-color: #f7f7f7;
-    padding: 1rem 2rem;
+    margin: 1rem;
+    padding: 0.5rem;
+    position: relative;
 }
-.certificates table tr td p{
-    color: var(--user-primary--color);
-    margin-top: 1rem;
+
+.edu-content p {
+    padding-top: 0.5rem;
 }
-.certificates table tr td img {
-    filter: invert(9%) sepia(87%) saturate(5576%) hue-rotate(346deg) brightness(120%) contrast(92%);
+
+.edu-content img {
+    filter: invert(11%) sepia(81%) saturate(6280%) hue-rotate(348deg) brightness(100%) contrast(89%);
 }
-.certificates table tr td:hover{
+
+.edu-content:hover,
+.edu-content p:hover {
     background-color: var(--user-primary--color);
-    z-index: 1;
+    color: var(--user-primary--color);
+
+}
+
+.hover-text {
+    display: none;
+}
+
+.hover-text-style {
+    display: block;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #fff;
+}
+
+.skills-title,
+.education-title {
+    background-color: var(--user-primary--color);
+    width: fit-content;
+    color: #fff;
+    margin: 2rem;
+    padding: 0 2rem;
+
+}
+
+.skills-title span,
+.education-title span {
+    color: #fff;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .portfolio-text {
+        flex: 0 0 auto;
+        width: 100%;
+    }
+
+    .portfolio-img {
+        flex: 0 0 auto;
+        width: 100%;
+    }
+
+    .skills-table .table tr td img {
+        width: 4rem;
+    }
+
+    .icon {
+        margin: 0;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .portfolio-text {
+        flex: 0 0 auto !important;
+        width: 100% !important;
+    }
+
+    .portfolio-img {
+        flex: 0 0 auto !important;
+        width: 100% !important;
+    }
+
+    .skills-table .table tr td img {
+        width: 4rem !important;
+    }
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .skills-table .table tr td img {
+        width: 5rem !important;
+    }
+
+    .certificates table tr td img {
+        width: 3rem;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .portfolio-text {
+        flex: 0 0 auto !important;
+        width: 50% !important;
+    }
+
+    .portfolio-img {
+        flex: 0 0 auto !important;
+        width: 50% !important;
+    }
+
+    .skills-table .table tr td img {
+        width: 6rem !important;
+    }
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .portfolio-text {
+        flex: 0 0 auto !important;
+        width: 50% !important;
+    }
+
+    .portfolio-img {
+        flex: 0 0 auto !important;
+        width: 50% !important;
+    }
+
+    .skills-table .table tr td img {
+        width: 6rem !important;
+    }
 }
