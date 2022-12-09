@@ -1,3 +1,8 @@
+/* loading Fonts for website */
+@import "fonts/droid/droid.css";
+@import "fonts/inter/inter.css";
+@import "fonts/droid/droid_italic.css";
+
 /* constants */
 :root {
     /*
