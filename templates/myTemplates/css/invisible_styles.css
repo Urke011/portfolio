@@ -256,6 +256,7 @@ nav img {
 .portfolio-text{
     text-align: justify !important;
 }
+/*blog list image */
 .com-content-category-blog img{
     width: 65%;
     height: 15rem;
@@ -271,6 +272,29 @@ nav img {
     color: #fff !important;
     font-size: inherit;
     border-radius: 0.375rem !important;
+}
+
+/* image blog header */
+.my-personal-blog  .item-image > img {
+    margin-left: var(--body-margin-negative);
+    margin-right: var(--body-margin-negative);
+    width: calc(100% + var(--body-margin-width-fix));
+    height: calc(130px + (650) * ((100vw - 300px) / (4000)));
+    object-fit: cover;
+}
+.my-personal-blog :not(.item-image) {
+    width: 80%;
+    margin: 0 auto;
+}
+.my-personal-blog .page-header h1{
+    text-align: center;
+    padding: 3rem 1rem;
+    margin-bottom: -3rem;
+}
+.my-personal-blog .page-header{
+    position: relative;
+    background-color: white;
+    bottom: 5rem;
 }
 
 /* Extra small devices (phones, 600px and down) */
