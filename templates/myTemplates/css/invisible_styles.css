@@ -296,6 +296,50 @@ nav img {
     background-color: white;
     bottom: 5rem;
 }
+/* img-gallery */
+.img-gallery{
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px, 1fr));
+    grid-gap: 30px;
+    margin: 0 auto;
+}
+.img-gallery img{
+    width: 100%;
+   /* height: 17rem; */
+    object-fit: contain;
+    cursor: pointer;
+}
+.full-img{
+    width: 100%;
+    height: 100vh;
+    background: rgba(0,0,0,0.9);
+    position: fixed;
+    left: 0;
+    top: 0;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+}
+.full-img img{
+    width: 100%;
+    height: 30rem;
+    object-fit: contain;
+}
+.full-img span{
+    position: absolute;
+    top: 5%;
+    right: 5%;
+    color: #fff;
+    font-size: x-large;
+    cursor: pointer;
+}
+.certificates-img-gallery {
+    padding: 2rem;
+    background-color: #f4f4f6;
+}
+
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {

@@ -49,3 +49,13 @@ $(".plus-minus").click(function () {
     }
 
 });
+//the approach works, but it is not the best, there is a lot of repetition
+let fullImgBox = document.getElementById("fullImgBox");
+let fullImg = document.getElementById("fullImg");
+function openFullImg(pic){
+    fullImgBox.style.display = "flex";
+    fullImg.src = pic;
+}
+function closeFullImg(){
+    fullImgBox.style.display = "none";
+}
