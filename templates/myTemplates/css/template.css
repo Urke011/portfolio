@@ -134,27 +134,27 @@
 
 .width-25 {
     display: block;
-    width: 25%;
+    width: 25% !important;
 }
 
 .width-50 {
     display: block;
-    width: 50%;
+    width: 50% !important;
 }
 
 .width-75 {
     display: block;
-    width: 75%;
+    width: 75% !important;
 }
 
 .width-85 {
     display: block;
-    width: 85%;
+    width: 85% !important;
 }
 
 .width-100 {
     display: block;
-    width: 100%;
+    width: 100% !important;
 }
 
 .block-center {
