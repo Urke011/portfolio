@@ -1,9 +1,8 @@
 a:hover {
-    text-decoration: none !important;
+    text-decoration: none;
 }
-
 a {
-    text-decoration: none !important;
+    text-decoration: none;
 }
 
 /* Navigation*/
@@ -339,8 +338,18 @@ nav img {
     padding: 2rem;
     background-color: #f4f4f6;
 }
-
-
+.three-blog img{
+    height: 15rem;
+}
+.card-title{
+    height: 6rem;
+}
+.card-body .card-title a h3{
+    color: black;
+}
+.card-footer a:hover{
+    text-decoration: underline !important;
+}
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
     .portfolio-text {
@@ -368,6 +377,9 @@ nav img {
         display: grid;
         grid-template-columns: 50% 50%;
     }
+    .card-title{
+        height: 3rem;
+    }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -392,7 +404,10 @@ nav img {
         display: grid;
         grid-template-columns: 50% 50%;
     }
+    .card-title{
+        height: 2rem;
 
+    }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
