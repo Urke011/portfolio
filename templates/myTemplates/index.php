@@ -47,6 +47,18 @@
     </div>
 </div>
 <jdoc:include type="modules" name="footer"/>
+<footer>
+    <div class="footer">
+        <div class="left-logo">
+            <a href="https://www.coderfoundry.com/"><img src="<?php echo $this->baseurl ?>/images/blog-headers/CF_Award_Orange.png" alt="img"></a>
+        </div>
+        <div class="right-content">
+            <a href="https://www.linkedin.com/in/uro%C5%A1-rajkovi%C4%87-1b153211b/"><img src="<?php echo $this->baseurl ?>/images/blog-headers/linkedin.png" alt="linkendin"></a>
+            <a href="https://github.com/Urke011"><img src="<?php echo $this->baseurl ?>/images/blog-headers/icons8-github-128.png" alt="git"></a>
+        </div>
+    </div>
+    <p>© 2023 Uros Developer GmbH. All Rights Reserved.</p>
+</footer>
 <script src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/js/jquery-3.6.1.js"></script>
 <script src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/js/bootstrap.js"></script>
 <script src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/js/template.js"></script>

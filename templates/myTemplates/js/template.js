@@ -2,10 +2,10 @@ let hideAboutText = $("#hide-about-text");
 
 $(".read-more-portfolio").click(function () {
     if (hideAboutText.css("display") == "none") {
-        hideAboutText.css("display", "block");
+        hideAboutText.slideDown();
         $(".read-more-portfolio").text("Read less");
     } else {
-        hideAboutText.css("display", "none");
+        hideAboutText.slideUp();
         $(".read-more-portfolio").text("Read more...");
     }
 

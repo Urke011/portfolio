@@ -255,6 +255,9 @@ nav img {
 .portfolio-text{
     text-align: justify !important;
 }
+#hide-about-text{
+    display: block;
+}
 /*blog list image */
 .com-content-category-blog img{
     width: 65%;
@@ -349,6 +352,22 @@ nav img {
 }
 .card-footer a:hover{
     text-decoration: underline !important;
+}
+footer{
+    background-color: #1b2d4b;
+}
+footer p{
+    color: #fff;
+    margin-right: 1rem;
+    text-align: right;
+}
+.footer{
+    display: flex;
+    justify-content: space-around;
+
+}
+.footer img{
+    width: 4rem;
 }
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
